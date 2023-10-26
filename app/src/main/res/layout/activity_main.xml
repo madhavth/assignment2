@@ -10,6 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"
+        android:background="@color/design_default_color_secondary_variant"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"
         app:layout_constraintTop_toTopOf="parent"
         />
 
@@ -30,7 +33,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:textColor="@color/black"
         tools:text="Hamburger"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@id/iv_logo"
