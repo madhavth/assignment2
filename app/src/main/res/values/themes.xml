@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeekTwoAssignment2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.WeekTwoAssignment2" parent="Base.Theme.WeekTwoAssignment2" >
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:buttonStyle">@style/CustomButtonTheme</item>
+    </style>
+    
+    <style name="CustomButtonTheme" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@color/design_default_color_secondary_variant</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
