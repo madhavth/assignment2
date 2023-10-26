@@ -2,6 +2,7 @@ package com.example.weektwoassignment2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.weektwoassignment2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
             if (newFood.isNotEmpty()) {
                 listOfFoods.add(newFood)
                 binding.etFood.text.clear()
+                Toast.makeText(this, "$newFood added to the list", Toast.LENGTH_SHORT).show()
             }
         }
     }
